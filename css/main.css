@@ -34,3 +34,12 @@ p {
 .unit:nth-child(3) {
   border-bottom: none;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .rule {
+    border-right: 3px solid rgba(255, 255, 255, .3);
+    border-bottom: none;
+  }
+
+}
