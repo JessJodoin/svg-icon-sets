@@ -1,3 +1,36 @@
 html {
   font-family: Overpass, sans-serif;
 }
+
+.bg {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+h1,
+h2,
+p {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border: 3px solid rgba(255, 255, 255, .7);
+}
+
+.btn:hover {
+  color: #ff5e3a;
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+.icon {
+  color: #fff;
+}
+
+.rule {
+  border-bottom: 3px solid rgba(255, 255, 255, .3);
+}
+
+.unit:nth-child(3) {
+  border-bottom: none;
+}
